@@ -19,10 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DailyEmployee.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="EmployeeManager.cpp" />
+    <ClCompile Include="RegularEmployee.cpp" />
+    <ClCompile Include="TempEmployee.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DailyEmployee.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="EmployeeManager.h" />
+    <ClInclude Include="RegularEmployee.h" />
+    <ClInclude Include="TempEmployee.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
