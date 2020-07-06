@@ -22,6 +22,7 @@
     <ClCompile Include="DailyEmployee.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="EmployeeManager.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="RegularEmployee.cpp" />
     <ClCompile Include="TempEmployee.cpp" />
   </ItemGroup>
@@ -35,7 +36,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0dc30983-c216-434b-a189-a9c142a9d7c4}</ProjectGuid>
+    <ProjectGuid>{df5ba4f2-8d39-4e5f-82e7-e2891bc32c15}</ProjectGuid>
     <RootNamespace>AbstractClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
