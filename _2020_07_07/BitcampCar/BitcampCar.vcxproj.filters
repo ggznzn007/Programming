@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="스펙">
+      <UniqueIdentifier>{9c8a101a-6763-4bbb-adca-921344973a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="테스터SW">
+      <UniqueIdentifier>{c5321611-9266-49b8-bf9f-88dd1252a99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="테스트_트랙%28환경%29">
+      <UniqueIdentifier>{85b1e47b-fe16-414e-9b32-a21d256ebeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자동차제조">
+      <UniqueIdentifier>{76a9c1a4-9045-4ece-b268-a16df375dceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자동차제조\도요타">
+      <UniqueIdentifier>{bf333d08-fa8f-4538-b851-15f5084a423d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자동차제조\기아">
+      <UniqueIdentifier>{d8dc61d7-bff7-439d-bdbb-8ea8c368ef97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자동차제조\현대">
+      <UniqueIdentifier>{8d22737f-39a7-4876-9c70-036526d8ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자동차제조\벤츠">
+      <UniqueIdentifier>{420a2fb9-9f7e-47fc-b9ea-91d5e150055f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICar.h">
+      <Filter>스펙</Filter>
+    </ClInclude>
+    <ClInclude Include="HyundaiCar.h">
+      <Filter>자동차제조\현대</Filter>
+    </ClInclude>
+    <ClInclude Include="KiaCar.h">
+      <Filter>자동차제조\기아</Filter>
+    </ClInclude>
+    <ClInclude Include="ToyotaCar.h">
+      <Filter>자동차제조\도요타</Filter>
+    </ClInclude>
+    <ClInclude Include="CarTester.h">
+      <Filter>테스터SW</Filter>
+    </ClInclude>
+    <ClInclude Include="BenzCar.h">
+      <Filter>자동차제조\벤츠</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HyundaiCar.cpp">
+      <Filter>자동차제조\현대</Filter>
+    </ClCompile>
+    <ClCompile Include="KiaCar.cpp">
+      <Filter>자동차제조\기아</Filter>
+    </ClCompile>
+    <ClCompile Include="ToyotaCar.cpp">
+      <Filter>자동차제조\도요타</Filter>
+    </ClCompile>
+    <ClCompile Include="CarTester.cpp">
+      <Filter>테스터SW</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>테스트_트랙%28환경%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BenzCar.cpp">
+      <Filter>자동차제조\벤츠</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
