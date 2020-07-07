@@ -1,11 +1,9 @@
-
-
 #include "Position.h"
 
 void main()
 {
 	Position pos(10, 100);
-	//pos.operator+(5);
-	Position pos1 = pos + 5;
+	//5.operator+(pos);   //ºÒ°¡´É
+	Position pos1 = 5 + pos;
 	pos1.showPosition();
 }

@@ -48,3 +48,12 @@ Position Position::operator+(int num)
 	temp.y = this->y + num;
 	return temp;
 }
+
+// 전역 함수(C언어의 함수)
+Position operator+(int num, Position pos)
+{
+	Position temp;
+	temp.x = num + pos.x;
+	temp.y = num + pos.y;
+	return temp;
+}
