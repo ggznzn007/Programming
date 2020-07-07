@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{7803fd45-e864-4c64-bd3d-efc9dbed1d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{9cf31082-7265-40d7-b897-da9a9143f32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\Account">
+      <UniqueIdentifier>{419f50a9-41e8-4fac-a364-7594c55f2bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Date">
+      <UniqueIdentifier>{1ea79279-761f-4f82-bd15-a414d28655aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountBook.cpp">
+      <Filter>input\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>input\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>Date</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountBook.h">
+      <Filter>input\Account</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
