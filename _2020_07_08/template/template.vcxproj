@@ -18,22 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ch_string.cpp" />
-    <ClCompile Include="string_equal_plus.cpp" />
-    <ClCompile Include="string_find.cpp" />
-    <ClCompile Include="string_find_2.cpp" />
-    <ClCompile Include="string_in.cpp" />
-    <ClCompile Include="string_insert.cpp" />
-    <ClCompile Include="string_replace.cpp" />
-    <ClCompile Include="string_size.cpp" />
-    <ClCompile Include="sub_str.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4478b664-e3c8-45bb-b4fb-0f2711c2c59b}</ProjectGuid>
-    <RootNamespace>Cproject001</RootNamespace>
+    <ProjectGuid>{5ff040ef-6119-43ce-845f-f842b3799db7}</ProjectGuid>
+    <RootNamespace>template</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,6 +138,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="_01_c_function.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

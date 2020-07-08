@@ -15,31 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="string_equal_plus.cpp">
+    <ClCompile Include="_01_vector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_find.cpp">
+    <ClCompile Include="_02_iterator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_find_2.cpp">
+    <ClCompile Include="_03_deque.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_in.cpp">
+    <ClCompile Include="_04_list.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_insert.cpp">
+    <ClCompile Include="_05_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_replace.cpp">
+    <ClCompile Include="_06_queue.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="string_size.cpp">
+    <ClCompile Include="_07_string.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch_string.cpp">
+    <ClCompile Include="_08_string.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="sub_str.cpp">
+    <ClCompile Include="_09_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_10_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_11_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_12_string.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
