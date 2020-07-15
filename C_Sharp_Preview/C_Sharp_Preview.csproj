@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="001_namespace.cs" />
+    <Compile Remove="002_using.cs" />
+    <Compile Remove="003_Boxing_Unboxing.cs" />
+    <Compile Remove="004_Structor_01.cs" />
+    <Compile Remove="004_Structor_02.cs" />
+    <Compile Remove="005_EnumInt.cs" />
+    <Compile Remove="006_if_.cs" />
+    <Compile Remove="007_switch_case.cs" />
+    <Compile Remove="008_Loop(dowhile).cs" />
+    <Compile Remove="008_Loop(for).cs" />
+    <Compile Remove="008_Loop(while).cs" />
+    <Compile Remove="009_foreach.cs" />
+    <Compile Remove="010_goto.cs" />
+    <Compile Remove="011_break.cs" />
+    <Compile Remove="012_continue.cs" />
+    <Compile Remove="013_object_from_dotnet.cs" />
+    <Compile Remove="014_string_01.cs" />
+    <Compile Remove="014_string_02.cs" />
+    <Compile Remove="014_string_03.cs" />
+    <Compile Remove="015_string_Builder.cs" />
+    <Compile Remove="016_Array.cs" />
+    <Compile Remove="016_Array_01.cs" />
+    <Compile Remove="016_Array_02.cs" />
+    <Compile Remove="017_ArrayList.cs" />
+    <Compile Remove="018_HashTable.cs" />
+    <Compile Remove="019_Stack.cs" />
+    <Compile Remove="020_Queue.cs" />
+    <Compile Remove="021_DateTime.cs" />
+    <Compile Remove="022_Stopwatch.cs" />
+    <Compile Remove="023_Random.cs" />
+    <Compile Remove="024_Double_angle.cs" />
+    <Compile Remove="025_Method_01.cs" />
+    <Compile Remove="026_Method_02.cs" />
+    <Compile Remove="027_default.cs" />
+    <Compile Remove="028_Property_01.cs" />
+    <Compile Remove="028_Property_02.cs" />
+    <Compile Remove="029_Operator_Equal.cs" />
+    <Compile Remove="029_Operator_Plus.cs" />
+    <Compile Remove="029_Operator_Plus2.cs" />
+    <Compile Remove="029_Operator_Plus_Int.cs" />
+    <Compile Remove="030_class_01.cs" />
+    <Compile Remove="031_Constructor_01.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="003_Boxing_Unboxing.cs" />
+    <None Include="011_break.cs" />
+    <None Include="012_continue.cs" />
+    <None Include="005_EnumInt.cs" />
+    <None Include="009_foreach.cs" />
+    <None Include="010_goto.cs" />
+    <None Include="006_if_.cs" />
+    <None Include="008_Loop%28dowhile%29.cs" />
+    <None Include="008_Loop%28while%29.cs" />
+    <None Include="008_Loop%28for%29.cs" />
+    <None Include="001_namespace.cs" />
+    <None Include="013_object_from_dotnet.cs" />
+    <None Include="015_string_Builder.cs" />
+    <None Include="016_Array.cs" />
+    <None Include="016_Array_01.cs" />
+    <None Include="016_Array_02.cs" />
+    <None Include="017_ArrayList.cs" />
+    <None Include="018_HashTable.cs" />
+    <None Include="019_Stack.cs" />
+    <None Include="020_Queue.cs" />
+    <None Include="021_DateTime.cs" />
+    <None Include="022_Stopwatch.cs" />
+    <None Include="023_Random.cs" />
+    <None Include="024_Double_angle.cs" />
+    <None Include="025_Method_01.cs" />
+    <None Include="026_Method_02.cs" />
+    <None Include="027_default.cs" />
+    <None Include="028_Property_01.cs" />
+    <None Include="028_Property_02.cs" />
+    <None Include="029_Operator_Equal.cs" />
+    <None Include="029_Operator_Plus.cs" />
+    <None Include="029_Operator_Plus2.cs" />
+    <None Include="029_Operator_Plus_Int.cs" />
+    <None Include="030_class_01.cs" />
+    <None Include="031_Constructor_01.cs" />
+    <None Include="Program.cs" />
+    <None Include="014_string_01.cs" />
+    <None Include="014_string_02.cs" />
+    <None Include="014_string_03.cs" />
+    <None Include="004_Structor_01.cs" />
+    <None Include="004_Structor_02.cs" />
+    <None Include="007_switch_case.cs" />
+    <None Include="002_using.cs" />
+  </ItemGroup>
+
+</Project>
