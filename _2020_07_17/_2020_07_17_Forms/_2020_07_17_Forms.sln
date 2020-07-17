@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11_MouseSelectEllipse", "_11_MouseSelectEllipse\_11_MouseSelectEllipse.csproj", "{FDA6CEC8-FFCD-4FD4-9DBC-D54592E168D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_12_MouseSelectEllipse", "_12_MouseSelectEllipse\_12_MouseSelectEllipse.csproj", "{7DBDAD82-6BE4-4907-AB3C-A96750E6E2EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_13_TextureBrush", "_13_TextureBrush\_13_TextureBrush.csproj", "{1540E6CF-69A1-4E8E-8C13-0808014ACB46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA6CEC8-FFCD-4FD4-9DBC-D54592E168D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA6CEC8-FFCD-4FD4-9DBC-D54592E168D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA6CEC8-FFCD-4FD4-9DBC-D54592E168D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA6CEC8-FFCD-4FD4-9DBC-D54592E168D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBDAD82-6BE4-4907-AB3C-A96750E6E2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBDAD82-6BE4-4907-AB3C-A96750E6E2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBDAD82-6BE4-4907-AB3C-A96750E6E2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBDAD82-6BE4-4907-AB3C-A96750E6E2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1540E6CF-69A1-4E8E-8C13-0808014ACB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1540E6CF-69A1-4E8E-8C13-0808014ACB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1540E6CF-69A1-4E8E-8C13-0808014ACB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1540E6CF-69A1-4E8E-8C13-0808014ACB46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE40D9D-5B8E-4708-A57C-0A1AB9866D50}
+	EndGlobalSection
+EndGlobal
