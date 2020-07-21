@@ -9,7 +9,7 @@ namespace _19_stringBuilder
     {
         static void Main(string[] args)
         {
-            //클래스 내부에 char[]이 들어있다
+            // 클래스 내부에 char[]이 들어있다.
             StringBuilder str =
                 new StringBuilder("알파벳 : ", 40);
             for (char c = 'a'; c <= 'z'; c++)

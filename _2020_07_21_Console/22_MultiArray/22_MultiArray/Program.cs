@@ -28,11 +28,7 @@ namespace _22_MultiArray
 
             Console.WriteLine();
 
-            /*aar 배열 전체 참조 변수
-                aar[0] 배열 첫번째 행 참조 변수
-                aar[1] 배열 두번째 행 참조 변수
-                aar[2] 배열 세번째 행 참조 변수*/
-            int[][] aar = new int[3][];//참조변수 3개 생성
+            int[][] aar = new int[3][];
             aar[0] = new int[] { 1, 2, 3, 4 };
             aar[1] = new int[] { 5, 6 };
             aar[2] = new int[] { 7, 8, 9, 10, 11, 12 };
