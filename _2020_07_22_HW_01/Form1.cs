@@ -28,7 +28,7 @@ namespace _2020_07_22_HW_01
             Graphics g = e.Graphics;
             Pen myPen = new Pen(Brushes.White, 2);
             g.DrawRectangle(myPen, x, y, 20, 20);
-
+            
             
 
         }
