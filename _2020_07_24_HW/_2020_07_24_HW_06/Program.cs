@@ -11,16 +11,16 @@ namespace _2020_07_24_HW_06
     {
         static void Main()
         {
-            Console.Write("연도를 입력해주세요 >> ");
-            int year =Int32.Parse(Console.ReadLine());
-            if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
-            //4로 나누어지고, 100으로 나누어지면서 400의 배수라는 조건을 동시에 만족하는
-                Console.WriteLine("{0}은 윤년이 맞습니다.", year);
-            
-            else 
-            
-                Console.WriteLine("{0}은 윤년이 아닙니다.",year);
-            
+            while (true)
+            {
+                Console.Write("연도를 입력해주세요 >> ");
+                int year = Int32.Parse(Console.ReadLine());
+                if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
+                    //4로 나누어지고, 100으로 나누어지면서 400의 배수라는 조건을 동시에 만족하는
+                    Console.WriteLine("{0}은 윤년이 맞습니다.", year);
+                else
+                    Console.WriteLine("{0}은 윤년이 아닙니다.", year);
+            }
         }
     }
 }

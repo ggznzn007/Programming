@@ -8,8 +8,8 @@ namespace _2020_07_24_HW_12
     {
         static void Main(string[] args)
         {
-            int n = 1;
-            for (int i = 2; i <= 10; i++)
+            int n = 1; int GOAL_VALUE = 10;
+            for (int i = 2; i <= GOAL_VALUE; i++)
                 { n *= i; }
             Console.WriteLine(n);
         }
