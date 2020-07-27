@@ -25,7 +25,7 @@ namespace _2020_07_24_HW_09
                 Console.WriteLine("순서대로 출력 {0}",queue.Dequeue());               
             }
             Console.WriteLine();
-            Console.WriteLine("총 합은 {0}", sum);
+            Console.WriteLine("총 합은 {0} 입니다", sum);
         }
     }
 }

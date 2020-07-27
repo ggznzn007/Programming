@@ -11,10 +11,17 @@ namespace _2020_07_24_HW_08
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[]{ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 };
-            Stack stack = new Stack(arr);
-            while(stack.Count > 0)//stack에 있는 요소 전부를 가져온다
-            {Console.Write("{0} ", stack.Pop());}
+            int[] arr = new int[10] ;
+                Stack stack = new Stack();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write("10개의 값을 입력해주세요 >> ");
+                arr[i] = Int32.Parse(Console.ReadLine());
+                stack.Push(arr[i]);
+            }
+            Console.WriteLine();
+            while (stack.Count > 0)//stack에 있는 요소 전부를 가져온다
+            { Console.Write("{0} ", stack.Pop()); }
             Console.WriteLine();
         }
 
