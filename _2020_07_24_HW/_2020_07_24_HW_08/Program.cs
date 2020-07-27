@@ -13,8 +13,8 @@ namespace _2020_07_24_HW_08
         {
             int[] arr = new int[]{ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 };
             Stack stack = new Stack(arr);
-            for (int i = 0; i < arr.Length; i++)
-            { Console.Write("{0} ", stack.Pop()); }
+            while(stack.Count > 0)//stack에 있는 요소 전부를 가져온다
+            {Console.Write("{0} ", stack.Pop());}
             Console.WriteLine();
         }
 
@@ -25,7 +25,16 @@ namespace _2020_07_24_HW_08
 
 
 
-/**/
+
+
+/*int[] arr = new int[] { 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 };
+Stack stack = new Stack(arr);
+            for (int i = 0; i<arr.Length; i++)
+            { Console.Write("{0} ", stack.Pop()); }
+            Console.WriteLine();*/
+
+
+
 /*for (int i = 0; i < arr.Length; i++)
             {
                 stack.Push(arr[i]);
@@ -44,3 +53,8 @@ while (stack.Count > 0)//stack에 있는 요소 전부를 가져온다
             }
     }
     */
+
+
+
+
+
