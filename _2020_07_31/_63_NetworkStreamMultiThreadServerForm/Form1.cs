@@ -18,15 +18,10 @@ namespace _63_NetworkStreamMultiThreadServerForm
     {
         Socket acceptSocket;    // 안내 역할 소켓(연결 처리 소켓)
         IPEndPoint ipep;        // 서버의 주소(ip, port)
-        Socket partnerSocket;   // 고객과 통신하는 소켓
-
-        NetworkStream ns;
-        StreamWriter sw;
 
         Thread tAccept;         // 연결담당 스레드
         bool isAccept = true;   // 연결담당 스레드 반복 플래그
 
-        Thread tRecv;           // 수신담당 스레드
         bool isRecv = true;     // 수신담당 스레드 반복 플래그
 
         /*Main 스레드가 아닌 Sub 스레드에서 윈폼의 컨트롤을 
@@ -69,17 +64,37 @@ namespace _63_NetworkStreamMultiThreadServerForm
             this.ipep = new IPEndPoint(IPAddress.Any,
                                 Int32.Parse(tbPort.Text));
             this.acceptSocket.Bind(this.ipep);
+            this.acceptSocket.Listen(1000);
+            AddLogListBox("서버 대기중...");
 
+            this.tAccept = new Thread(new ThreadStart(ThreadAccept));
+            this.tAccept.Start();
+
+            btnStart.Enabled = false;
+            btnStop.Enabled = true;
         }
 
         private void btnStop_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                this.isAccept = false;
+                this.isRecv = false;
+                this.acceptSocket.Close();
+            }catch(Exception ex)
+            {
+                AddLogListBox("Exception : " + ex.Message);
+            }
+            finally
+            {
+                btnStart.Enabled = true;
+                btnStop.Enabled = false;
+            }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-
+            lbLog.Items.Clear();
         }
 
         /*Main스레드에서는 AddLogListBox메서드 호출이 문제 없는데
@@ -102,11 +117,40 @@ namespace _63_NetworkStreamMultiThreadServerForm
 
         void ThreadAccept()
         {
+            while (this.isAccept)
+            {
+                /* Accept()할 때마다 해당 소켓을 담당할 수신 스레드를 생성 구동한다.
+                 */
+                try
+                {
+                    Socket partnerSocket = this.acceptSocket.Accept();
+                    AddLogListBox("클라이언트 접속");
+                    NetworkStream ns = new NetworkStream(partnerSocket);
 
+                    Thread tRecv = new Thread(new ParameterizedThreadStart(ThreadRecv));
+                    tRecv.Start(ns);
+                }catch(Exception ex)
+                {
+                    AddLogListBox("Exception : " + ex.Message);
+                }
+            }
         }
-        void ThreadRecv()
+        void ThreadRecv(object obj)
         {
-
+            NetworkStream ns = obj as NetworkStream;
+            StreamReader sr = new StreamReader(ns);
+            while (this.isRecv)
+            {
+                try
+                {
+                    string data = sr.ReadLine();
+                    AddLogListBox("← Client 수신 : " + data);
+                }catch(Exception ex)
+                {
+                    AddLogListBox("Exception : " + ex.Message);
+                    break;
+                }
+            }
         }
     }
 }

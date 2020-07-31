@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_62_RunThreadImage", "_62_R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_63_NetworkStreamMultiThreadServerForm", "_63_NetworkStreamMultiThreadServerForm\_63_NetworkStreamMultiThreadServerForm.csproj", "{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64_NetworkStreamMultiThreadClientForm", "_64_NetworkStreamMultiThreadClientForm\_64_NetworkStreamMultiThreadClientForm.csproj", "{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
