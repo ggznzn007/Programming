@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_65_NetworkStreamMultiThreadServerForm", "_65_NetworkStreamMultiThreadServerForm\_65_NetworkStreamMultiThreadServerForm.csproj", "{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_66_NetworkStreamMultiThreadClientForm", "_66_NetworkStreamMultiThreadClientForm\_66_NetworkStreamMultiThreadClientForm.csproj", "{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_67_NetworkStreamMultiThreadServerForm", "_67_NetworkStreamMultiThreadServerForm\_67_NetworkStreamMultiThreadServerForm.csproj", "{68B8C242-2E99-488B-AB90-52FDF0C675C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_68_NetworkStreamMultiThreadClientForm", "_68_NetworkStreamMultiThreadClientForm\_68_NetworkStreamMultiThreadClientForm.csproj", "{B905E39A-B729-49AE-8849-916CCC4BAC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_NumBaseball", "_NumBaseball\_NumBaseball.csproj", "{0911773E-4A33-4EBD-B07A-4F135C303239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_69_NetworkStreamMultiServerFormPacket", "_69_NetworkStreamMultiServerFormPacket\_69_NetworkStreamMultiServerFormPacket.csproj", "{75F6DB73-BC0A-406B-9612-6905C2D038DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_70_NetworkStreamClientForm", "_70_NetworkStreamClientForm\_70_NetworkStreamClientForm.csproj", "{6672E4CB-5501-43BC-957E-7CF2FEC5340E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_67_NetworkStreamMultiThreadBaseballServerForm", "_67_NetworkStreamMultiThreadBasebalServerForm\_67_NetworkStreamMultiThreadBaseballServerForm.csproj", "{D525C5BB-59F1-4DF1-96C2-DA7020B70B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_68_NetworkStreamMultiThreadBaseballClientForm", "_68_NetworkStreamMultiThreadBaseballClientForm\_68_NetworkStreamMultiThreadBaseballClientForm.csproj", "{0B2435B7-34D3-4C8F-9684-F4A796CF2EDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25D4B7A-79D7-4D46-BBA4-B4DDAB1CA32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F4DD5C-05FD-4E21-8820-B7F29D139BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B8C242-2E99-488B-AB90-52FDF0C675C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B8C242-2E99-488B-AB90-52FDF0C675C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B8C242-2E99-488B-AB90-52FDF0C675C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B8C242-2E99-488B-AB90-52FDF0C675C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B905E39A-B729-49AE-8849-916CCC4BAC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B905E39A-B729-49AE-8849-916CCC4BAC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B905E39A-B729-49AE-8849-916CCC4BAC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B905E39A-B729-49AE-8849-916CCC4BAC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0911773E-4A33-4EBD-B07A-4F135C303239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0911773E-4A33-4EBD-B07A-4F135C303239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0911773E-4A33-4EBD-B07A-4F135C303239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0911773E-4A33-4EBD-B07A-4F135C303239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F6DB73-BC0A-406B-9612-6905C2D038DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F6DB73-BC0A-406B-9612-6905C2D038DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F6DB73-BC0A-406B-9612-6905C2D038DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F6DB73-BC0A-406B-9612-6905C2D038DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6672E4CB-5501-43BC-957E-7CF2FEC5340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6672E4CB-5501-43BC-957E-7CF2FEC5340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6672E4CB-5501-43BC-957E-7CF2FEC5340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6672E4CB-5501-43BC-957E-7CF2FEC5340E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D525C5BB-59F1-4DF1-96C2-DA7020B70B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D525C5BB-59F1-4DF1-96C2-DA7020B70B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D525C5BB-59F1-4DF1-96C2-DA7020B70B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D525C5BB-59F1-4DF1-96C2-DA7020B70B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2435B7-34D3-4C8F-9684-F4A796CF2EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2435B7-34D3-4C8F-9684-F4A796CF2EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2435B7-34D3-4C8F-9684-F4A796CF2EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2435B7-34D3-4C8F-9684-F4A796CF2EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BCC3718-A909-4C3C-BD3C-9A7B42188593}
+	EndGlobalSection
+EndGlobal
